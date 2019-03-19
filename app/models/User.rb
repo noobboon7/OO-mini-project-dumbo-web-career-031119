@@ -12,7 +12,13 @@ class User
         @all
     end
 
+
     def add_recipe_card(recipe, date, rating)
+      RecipeCard.new(date, rating, recipe, self)
+    end
+
+    def declare_allergen
+      
 
     end
 end

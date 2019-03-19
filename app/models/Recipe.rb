@@ -1,14 +1,14 @@
 class Recipe
-  
-  attr_accessor :attr_names
+
+  attr_reader :recipecard, :ingredient, :allergen, :user 
   @@all = []
 
   def initialize
-    @all << self
+    @@all << self
   end
 
   def self.all
-    @@all 
+    @@all
   end
 
 end
