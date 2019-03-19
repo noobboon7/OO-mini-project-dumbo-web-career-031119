@@ -1,5 +1,7 @@
 class User
 
+    attr_reader :recipecard, :recipe, :allergen
+
     @@all = []
 
     def initialize
@@ -10,4 +12,7 @@ class User
         @all
     end
 
+    def add_recipe_card(recipe, date, rating)
+
+    end
 end
