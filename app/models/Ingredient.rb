@@ -12,7 +12,4 @@ class Ingredient
         @@all
     end
 
-    def self.most_common_allergen
-        counter = 0
-    end
 end
