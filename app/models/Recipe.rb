@@ -1,16 +1,16 @@
 class Recipe
 
-  attr_accessor :attr_names
+  attr_accessor :user, :ingredient
   @@all = []
   def initialize(argument)
     @argument = argument
   end
 
 def self.all
-  @@all 
+  @@all
 end
 
-end
+
 
 
 end
